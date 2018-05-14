@@ -47,19 +47,18 @@
          <repeatable>false</repeatable>
          <label>Título</label>
          <input-type>onebox</input-type>
-         <hint>Ingrese el título del recurso.</hint>
+         <hint>Ingrese el título y subtítulo del recurso, el formato debe ser: Título:Subtítulo.</hint>
          <required>Obligatorio</required>
        </field>
 	  	 
-	 
-       <field>
+	  <field>
          <dc-schema>dc</dc-schema>
          <dc-element>creator</dc-element>
          <dc-qualifier></dc-qualifier>
          <repeatable>true</repeatable>
          <label>Autor</label>
          <input-type>name</input-type>
-         <hint>Ingrese el título y subtítulo del recurso, el formato debe ser: Título:Subtítulo.</hint>
+         <hint>Ingrese los autores o creadores del recurso. En la primer caja se coloca el nombre completo del Autor con el formato: Nombres(s) Primer apellido Segundo apellido.</hint>
          <required>true</required>
        </field>
 
